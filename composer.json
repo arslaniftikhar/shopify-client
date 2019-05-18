@@ -1,0 +1,21 @@
+{
+  "name": "arslaniftikhar/shopify-client",
+  "description": "Shopify API client for PHP",
+  "type": "library",
+  "require": {
+    "arslaniftikhar/curl": ">=1.0",
+    "php": ">=5.5.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Arslan Iftikhar",
+      "email": "arslaniftikhar16@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Shopify\\": "shopify/"
+    }
+  }
+}
